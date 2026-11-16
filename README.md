@@ -232,16 +232,24 @@ The simulation uses a fixed random seed (`42`) for reproducibility.
 
 ### Generated Outputs
 
-The script produces four PNG visualizations and four CSV result tables:
+The Python simulation generates four PNG visualizations and four CSV result tables.
 
+**Visualizations:**
 - `01_membership_distributions.png`
 - `02_cac_boxplots.png`
 - `03_membership_heatmap.png`
 - `04_cac_heatmap.png`
-- `nyc_gym_scenario_summary.csv`
-- `nyc_gym_channel_results.csv`
-- `nyc_gym_environment_winners.csv`
-- `nyc_gym_robustness_ranking.csv`
+
+**Simulation Data & Results:**
+
+The complete CSV result tables are available in the [`results/`](results/) folder for further analysis and exploration.
+
+- [`nyc_gym_scenario_summary.csv`](results/nyc_gym_scenario_summary.csv) — Summary statistics across all 12 simulated scenarios.
+- [`nyc_gym_channel_results.csv`](results/nyc_gym_channel_results.csv) — Channel-level spending and membership acquisition results.
+- [`nyc_gym_environment_winners.csv`](results/nyc_gym_environment_winners.csv) — Winning marketing strategies under each CPC environment.
+- [`nyc_gym_robustness_ranking.csv`](results/nyc_gym_robustness_ranking.csv) — Cross-environment performance and strategy robustness rankings.
+
+For detailed findings, statistical interpretation, and business recommendations, see [`RESULTS.md`](RESULTS.md).
 
 ---
 
