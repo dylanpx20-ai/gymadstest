@@ -170,30 +170,23 @@ See `RESULTS.md` for the complete analysis and business interpretation.
 
 Four visualizations illustrate the simulation's results.
 
+
 ### 1. Membership Acquisition Distributions
 
-![Membership Acquisition Distributions](results/01_membership_distributions.png)
-
-Overlapping probability density curves compare monthly membership acquisition across the four strategies under each CPC environment.
+![Membership Acquisition Distributions](01_membership_distributions.png)
 
 ### 2. Customer Acquisition Cost Distributions
 
-![Customer Acquisition Cost Distributions](results/02_cac_boxplots.png)
-
-Boxplots illustrate the median, variability, and distribution of blended CAC across the simulated marketing strategies.
+![Customer Acquisition Cost Distributions](02_cac_boxplots.png)
 
 ### 3. Median Membership Acquisition Heatmap
 
-![Membership Heatmap](results/03_membership_heatmap.png)
-
-A heatmap compares median monthly new members across all 12 strategy-environment combinations.
+![Membership Heatmap](03_membership_heatmap.png)
 
 ### 4. Median CAC Heatmap
 
-![CAC Heatmap](results/04_cac_heatmap.png)
-
-A heatmap highlights how acquisition costs change across budget allocations and advertising cost environments.
-
+![CAC Heatmap](04_cac_heatmap.png)
+  
 ---
 
 ## Business Recommendation
