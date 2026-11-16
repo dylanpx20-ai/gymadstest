@@ -242,7 +242,7 @@ The simulation generates four PNG visualizations and four CSV result tables.
 
 **Simulation Results:**
 
-The complete simulation summary tables, statistical findings, and business recommendations are documented in [`RESULTS.md`](RESULTS.md).
+The complete simulation summary tables, statistical findings, and business recommendations are documented in [`results.md`](results.md).
 
 The four exported CSV datasets are available in the `results/` folder for further analysis and reproducibility.
 
